@@ -1,0 +1,15 @@
+@charset "utf-8";
+// @import "normalize";
+
+body {
+}
+
+.jumbotron {
+  color: #fff;
+}
+
+.cover-image {
+  background-image: url(/images/runners.jpg);
+  background-size: cover;
+  background-position: center 20%; 
+}
