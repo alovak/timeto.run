@@ -2,6 +2,7 @@
 // @import "normalize";
 
 body {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .jumbotron {
@@ -9,7 +10,31 @@ body {
 }
 
 .cover-image {
-  background-image: url(/images/runners.jpg);
+  background-image: url(/images/coach_1.jpg);
   background-size: cover;
-  background-position: center 20%; 
+  background-position: 20% 45%;
+  height: 320px;
+}
+
+.header, .intro, .about {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.intro {
+  padding: 25px 0;
+}
+
+.about {
+  background-color: #eee;
+  padding: 25px 0;
+  p {
+    font-size: 20px;
+    margin: 25px 0;
+  }
+}
+.serge-photo {
+  width: 200px;
+  object-fit: cover;
+  margin: 25px;
 }
